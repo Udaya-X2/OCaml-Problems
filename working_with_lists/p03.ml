@@ -17,5 +17,5 @@ let rec kth (l : 'a list) (k : int) : 'a option =
 
 (* Website solution *)
 let rec at k = function
-    | [] -> None
-    | h :: t -> if k = 1 then Some h else at (k - 1) t;;
+  | [] -> None
+  | h :: t -> if k = 1 then Some h else at (k - 1) t

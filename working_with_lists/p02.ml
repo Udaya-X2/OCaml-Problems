@@ -16,6 +16,6 @@ let rec last_two (l : 'a list) : ('a * 'a) option =
 
 (* Website solution *)
 let rec last_two = function
-    | [] | [_] -> None
-    | [x; y] -> Some (x,y)
-    | _ :: t -> last_two t;;
+  | [] | [_] -> None
+  | [x; y] -> Some (x,y)
+  | _ :: t -> last_two t
