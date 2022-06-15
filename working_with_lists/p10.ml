@@ -32,4 +32,4 @@ let encode list =
 (* An alternative solution, which is shorter but requires more memory,
    is to use the pack function declared in problem 9: *)
 let encode list =
-  List.map (fun l -> (List.length l, List.hd l)) (pack list);;
+  List.map (fun l -> (List.length l, List.hd l)) (pack list)

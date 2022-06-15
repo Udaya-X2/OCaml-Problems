@@ -30,4 +30,4 @@ let decode list =
     | One x :: t -> aux (x :: acc) t
     | Many (n, x) :: t -> aux (many acc n x) t
   in
-    aux [] (List.rev list);;
+    aux [] (List.rev list)

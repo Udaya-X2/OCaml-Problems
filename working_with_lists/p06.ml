@@ -11,4 +11,4 @@ let is_palindrome (l : 'a list) : bool =
 (* Website solution *)
 let is_palindrome list =
   (* One can use either the rev function from the previous problem, or the built-in List.rev *)
-  list = List.rev list;;
+  list = List.rev list
