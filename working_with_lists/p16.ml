@@ -8,8 +8,8 @@
 (* My solution *)
 let drop (l : 'a list) (n : int) : 'a list =
   let aux (k : int) = function
-  | hd :: tl -> if k = n then aux 
-  | [] -> 
+    | hd :: tl -> if k = n then aux 
+    | [] ->
 
 (* Website solution *)
 let drop list n =
